@@ -1,0 +1,145 @@
+/* Mengatur tampilan seluruh halaman */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Tampilan body */
+body {
+    background-color: #f1f8e9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+
+/* Navigasi */
+nav {
+    background-color: #1b5e20;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c8e6c9;
+}
+
+
+/* Bagian utama */
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+
+/* Section */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+
+section h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+
+/* Paragraf */
+section p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+
+/* Gambar */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+/* Video */
+video {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+/* Audio */
+audio {
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+/* Form Kontak */
+form {
+    width: 100%;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
